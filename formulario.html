@@ -1,0 +1,64 @@
+/<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<body>
+	<div id="container"><!-- começa container -->
+
+		<div id="header"><!-- começa cabeçalho -->
+			<h1>Site Fabi</h1>
+		</div><!-- termina cabeçalho -->
+
+		<div id="mainnav"><!-- começa mainnav -->
+			<nav>
+				<ul>
+					<li><ahref='#'>Íten 1</a><!-- começa Íten 1 -->
+						<ul>
+							<li><ahref='#'>Sub-íten 1</a></li><!-- começa Sub-íten 1 do Íten 1 -->
+							<li><ahref='#'>Sub-íten 2</a></li><!-- começa Sub-íten 2 do Íten 1 -->
+							<li><ahref='#'>Sub-íten 3</a></li><!-- começa Sub-íten 3 do Íten 1 -->
+						</ul>
+					</li><!-- termina Íten 1 -->
+					<li><ahref='#'>Íten 2</a><!-- começa Íten 2 -->
+						<ul>
+							<li><ahref='#'>Sub-íten 1</a></li><!-- começa Sub-íten 1 do Íten 2 -->
+							<li><ahref='#'>Sub-íten 2</a></li><!-- começa Sub-íten 3 do Íten 2 -->
+							<li><ahref='#'>Sub-íten 3</a></li><!-- começa Sub-íten 3 do Íten 2 -->
+						</ul>
+					</li><!-- termina Íten 2 -->
+					<li><ahref='#'>Íten 3</a><!-- começa Íten 3 -->
+						<ul>
+							<li><ahref='#'>Sub-íten 1</a></li><!-- começa Sub-íten 1 do Íten 3 -->
+							<li><ahref='#'>Sub-íten 2</a></li><!-- começa Sub-íten 2 do Íten 3 -->
+							<li><ahref='#'>Sub-íten 3</a></li><!-- começa Sub-íten 3 do Íten 3 -->
+						</ul>
+					</li><!-- termina Íten 3 -->
+				</ul>
+			</nav>
+		</div><!-- termina mainnav -->
+
+		<div id="form">
+			<h2>Contato</h2>
+			<form>
+					<ul>
+						<li><label>Nome</label><input type="text" name=""></li>
+						<li><label>Telefone</label><input type="text" name=""></li>
+						<li><label>E-mail</label><input type="text" name="" required></li>
+						<li><label>CPF</label><input pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{2}" type="text" name="" title="Preencha o cpf com 11 digitos"></li>
+						<li><label>Grupo de idade</label><input type="number" min="18" max="130" step="10" name=""></li>
+						<li><input type="submit" name="Enviar"></li>
+							
+				</ul>
+			</form>
+		</div>
+
+		<div id="footer"><!-- começa footer -->
+			<p>Fabi 2019 - Copyright</p>
+		</div><!-- termina footer -->
+
+	</div><!-- termina container -->
+</body>
+</html>
